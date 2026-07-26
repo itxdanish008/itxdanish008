@@ -138,15 +138,6 @@ Privacy-first by default: on-device and self-hosted inference where it matters, 
 
 ---
 
-### GitHub
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=itxdanish008&show_icons=true&hide_border=true&bg_color=0A0A0F&title_color=9B6DFF&icon_color=6D5CFF&text_color=A1A1AA&ring_color=6D5CFF" alt="GitHub stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=itxdanish008&layout=compact&hide_border=true&bg_color=0A0A0F&title_color=9B6DFF&text_color=A1A1AA" alt="Top languages" height="165">
-</p>
-
----
-
 ### Let's build something
 
 Open to new projects, collaborations, and consulting engagements.
