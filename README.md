@@ -88,7 +88,7 @@ Privacy-first by default: on-device and self-hosted inference where it matters, 
   <img src="https://img.shields.io/badge/n8n-111119?style=flat-square&logo=n8n&logoColor=6D5CFF" alt="n8n">
   <img src="https://img.shields.io/badge/OpenRouter-111119?style=flat-square&logo=openrouter&logoColor=6D5CFF" alt="OpenRouter">
   <img src="https://img.shields.io/badge/CrewAI-111119?style=flat-square" alt="CrewAI">
-  <img src="https://img.shields.io/badge/LlamaIndex-111119?style=flat-square&logo=llamaindex&logoColor=6D5CFF" alt="LlamaIndex">
+  <img src="https://img.shields.io/badge/LlamaIndex-111119?style=flat-square" alt="LlamaIndex">
   <img src="https://img.shields.io/badge/Hermes%20Agents-111119?style=flat-square" alt="Hermes Agents">
 </p>
 
@@ -107,7 +107,7 @@ Privacy-first by default: on-device and self-hosted inference where it matters, 
 
 <p>
   <img src="https://img.shields.io/badge/PostgreSQL-111119?style=flat-square&logo=postgresql&logoColor=6D5CFF" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Pinecone-111119?style=flat-square&logo=pinecone&logoColor=6D5CFF" alt="Pinecone">
+  <img src="https://img.shields.io/badge/Pinecone-111119?style=flat-square" alt="Pinecone">
   <img src="https://img.shields.io/badge/ChromaDB-111119?style=flat-square" alt="ChromaDB">
   <img src="https://img.shields.io/badge/Redis-111119?style=flat-square&logo=redis&logoColor=6D5CFF" alt="Redis">
 </p>
@@ -115,7 +115,7 @@ Privacy-first by default: on-device and self-hosted inference where it matters, 
 **Cloud & DevOps**
 
 <p>
-  <img src="https://img.shields.io/badge/AWS-111119?style=flat-square&logo=amazonwebservices&logoColor=6D5CFF" alt="AWS">
+  <img src="https://img.shields.io/badge/AWS-111119?style=flat-square" alt="AWS">
   <img src="https://img.shields.io/badge/Docker-111119?style=flat-square&logo=docker&logoColor=6D5CFF" alt="Docker">
   <img src="https://img.shields.io/badge/Kubernetes-111119?style=flat-square&logo=kubernetes&logoColor=6D5CFF" alt="Kubernetes">
   <img src="https://img.shields.io/badge/GitHub%20Actions-111119?style=flat-square&logo=githubactions&logoColor=6D5CFF" alt="GitHub Actions">
