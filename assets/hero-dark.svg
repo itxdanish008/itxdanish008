@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250" role="img" aria-label="M. Danish Bashir — Sr. AI Engineer, Full-Stack">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6D5CFF"/><stop offset="100%" stop-color="#9B6DFF"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6D5CFF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#9B6DFF" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#6D5CFF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#9B6DFF" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#9B6DFF" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1.1" fill="#1E1E2A"/>
+  </pattern>
+</defs>
+  <rect width="1000" height="250" rx="18" fill="#0A0A0F"/>
+  <rect width="1000" height="250" rx="18" fill="url(#dots)" opacity="0.55"/>
+  <ellipse cx="880" cy="70" rx="300" ry="190" fill="url(#glow)"/>
+  <g clip-path="inset(0 round 18)"><line x1="842" y1="78" x2="897" y2="64" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="842" y1="78" x2="814" y2="49" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="842" y1="78" x2="867" y2="57" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="842" y1="78" x2="821" y2="63" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="842" y1="78" x2="791" y2="97" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="861" y1="206" x2="853" y2="189" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="861" y1="206" x2="901" y2="148" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="861" y1="206" x2="921" y2="200" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="772" y1="58" x2="814" y2="49" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="772" y1="58" x2="821" y2="63" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="772" y1="58" x2="791" y2="97" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="897" y1="64" x2="867" y2="57" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="853" y1="189" x2="901" y2="148" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="853" y1="189" x2="921" y2="200" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="774" y1="169" x2="782" y2="151" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="774" y1="169" x2="775" y2="184" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="814" y1="49" x2="867" y2="57" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="814" y1="49" x2="821" y2="63" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="814" y1="49" x2="791" y2="97" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="782" y1="151" x2="775" y2="184" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="782" y1="151" x2="791" y2="97" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="867" y1="57" x2="821" y2="63" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="821" y1="63" x2="791" y2="97" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><line x1="901" y1="148" x2="921" y2="200" stroke="#6D5CFF" stroke-opacity="0.28" stroke-width="1"/><circle cx="842" cy="78" r="2.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="2.6s" repeatCount="indefinite" begin="0.00s"/></circle><circle cx="861" cy="206" r="3.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.1s" repeatCount="indefinite" begin="0.21s"/></circle><circle cx="772" cy="58" r="4.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.5s" repeatCount="indefinite" begin="0.42s"/></circle><circle cx="897" cy="64" r="2.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="4.0s" repeatCount="indefinite" begin="0.63s"/></circle><circle cx="853" cy="189" r="3.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="4.4s" repeatCount="indefinite" begin="0.84s"/></circle><circle cx="774" cy="169" r="4.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="2.6s" repeatCount="indefinite" begin="1.05s"/></circle><circle cx="814" cy="49" r="2.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.1s" repeatCount="indefinite" begin="1.26s"/></circle><circle cx="782" cy="151" r="3.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.5s" repeatCount="indefinite" begin="1.47s"/></circle><circle cx="867" cy="57" r="4.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="4.0s" repeatCount="indefinite" begin="1.68s"/></circle><circle cx="821" cy="63" r="2.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="4.4s" repeatCount="indefinite" begin="1.89s"/></circle><circle cx="901" cy="148" r="3.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="2.6s" repeatCount="indefinite" begin="2.10s"/></circle><circle cx="775" cy="184" r="4.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.1s" repeatCount="indefinite" begin="2.31s"/></circle><circle cx="791" cy="97" r="2.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="3.5s" repeatCount="indefinite" begin="2.52s"/></circle><circle cx="921" cy="200" r="3.6" fill="url(#accent)" opacity="0.85"><animate attributeName="opacity" values="0.85;0.25;0.85" dur="4.0s" repeatCount="indefinite" begin="2.73s"/></circle></g>
+  <rect x="0.5" y="0.5" width="999" height="249" rx="18" fill="none" stroke="#1E1E2A"/>
+
+  <rect x="54" y="46" width="3" height="34" rx="1.5" fill="url(#accent)"/>
+  <text x="72" y="73" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="40" font-weight="700"
+        fill="#F4F4F5" letter-spacing="0.5">M. Danish Bashir</text>
+
+  <text x="73" y="104" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="15.5" font-weight="600" fill="url(#accent)"
+        letter-spacing="1.6">SR. AI ENGINEER · FULL-STACK</text>
+
+  <text x="73" y="140" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="16" fill="#A1A1AA">I ship privacy-first AI systems and the full-stack</text>
+  <text x="73" y="163" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="16" fill="#A1A1AA">products around them.</text>
+
+  <rect x="73" y="186" width="150" height="26" rx="13" fill="#6D5CFF" fill-opacity="0.12" stroke="#6D5CFF" stroke-opacity="0.45"/>
+  <circle cx="88" cy="199" r="3.5" fill="#FFB86C">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="98" y="203" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11" fill="#A1A1AA" letter-spacing="0.4">OPEN TO WORK</text>
+
+  <text x="240" y="203" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="11.5" fill="#A1A1AA" letter-spacing="0.4">REMOTE · LAHORE, PK   ·   4+ YRS AI/ML   ·   8+ YRS ENG</text>
+
+  <g clip-path="inset(0 round 18)">
+    <rect x="-320" y="247" width="320" height="3" fill="url(#sweep)">
+      <animate attributeName="x" values="-320;1000;-320" dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

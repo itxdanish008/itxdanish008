@@ -1,150 +1,156 @@
-<h1 align="center">M. Danish Bashir</h1>
+<!-- Hero — self-hosted SVG, auto-switches with the viewer's GitHub theme -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-light.svg">
+  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-dark.svg" alt="M. Danish Bashir — Sr. AI Engineer, Full-Stack" width="100%">
+</picture>
 
 <p align="center">
-  <b>Sr. AI Engineer, Full-Stack</b><br>
-  <sub>Remote · based in Lahore, PK</sub>
+  <a href="#-selected-work"><img src="https://img.shields.io/badge/Work-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Work"></a>
+  <a href="#-stack"><img src="https://img.shields.io/badge/Stack-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Stack"></a>
+  <a href="#-how-i-work"><img src="https://img.shields.io/badge/Process-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Process"></a>
+  <a href="#-lets-build-something"><img src="https://img.shields.io/badge/Contact-6D5CFF?style=for-the-badge&labelColor=6D5CFF&color=6D5CFF" alt="Contact"></a>
 </p>
 
 <p align="center">
-  <i>I ship privacy-first AI systems and the full-stack products around them.</i>
+  <a href="https://linkedin.com/in/dev-danish"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:danishbashir.dev@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://github.com/itxdanish008/folio"><img src="https://img.shields.io/badge/Portfolio_source-111119?style=flat-square&logo=github&logoColor=6D5CFF" alt="Portfolio source"></a>
+  <img src="https://img.shields.io/badge/Based_in-Lahore,_PK-111119?style=flat-square&logo=googlemaps&logoColor=6D5CFF" alt="Lahore, PK">
 </p>
-
-<p align="center">
-  <a href="https://linkedin.com/in/dev-danish"><img src="https://img.shields.io/badge/LinkedIn-6D5CFF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:danishbashir.dev@gmail.com"><img src="https://img.shields.io/badge/Email-9B6DFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://github.com/itxdanish008/folio"><img src="https://img.shields.io/badge/Portfolio%20source-111119?style=for-the-badge&logo=github&logoColor=6D5CFF" alt="Portfolio source"></a>
-  <img src="https://img.shields.io/badge/Open%20to%20select%20engagements-FFB86C?style=for-the-badge&logoColor=0A0A0F" alt="Open to select engagements">
-</p>
-
----
-
-### About
-
-I'm an AI engineer who also ships the full product — models and pipelines on one side, Next.js and React on the other.
-
-Privacy-first by default: on-device and self-hosted inference where it matters, not just API calls to someone else's model. Production-grade means monitored, tested, and built to survive contact with real users.
-
-**Now** — building Tyllow TTS and Evermind AI at Stem Energy Services.
-
----
-
-### By the numbers
-
-| Years in AI/ML | Years engineering | Production systems | Exception handling cut | Client IT cost cut |
-|:---:|:---:|:---:|:---:|:---:|
-| **4+** | **8+** | **20+** | **85%** | **75%** |
-
----
-
-### Featured work
-
-| Project | What it is | Stack |
-|---|---|---|
-| **[Cytex.io](http://cytex.io)** | AI-powered cyber threat intelligence platform. Near real-time threat analysis with LLM-driven reasoning modules. | `Python` `LangGraph` `FastAPI` `Next.js` `Postgres` `AWS` |
-| **[Ghostcrew](https://www.ghostcrew.ai)** | Autonomous AI agent for penetration testing. Plans, executes, and iterates pentest workflows on its own. | `Python` `LLM agents` `tool-use` `memory` |
-| **[FourKites Agentic Workforce](https://www.fourkites.com/fourkites-ai/agentic-ai/)** | Agentic supply-chain assistants (Tracy, Sam) for track-and-trace and supplier ops. Cut exception handling ~85%. | `LLM agents` `Python` `RAG` |
-
-<details>
-<summary><b>More projects</b></summary>
 
 <br>
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[360 Facevision HRMS](https://360facevision.com/)** | Face-recognition HRMS with anti-spoofing and emotion detection, plus AI payroll rules in production. | `Django` `React.js` `ResNet-50` `ArcFace` `MobileNetV3` `Redis` |
-| **Tyllow TTS + Evermind AI** *(in dev)* | Emotion-aware TTS and an offline 4-bit quantized LLM companion. Fully offline, hardware-aware inference. | `Coqui` `Kokoro` `OpenMOSS` `ISTFT` `Qwen3` `llama.cpp` |
-| **RecruitmentPrep OS** | Reverse-recruiting SaaS that runs the job hunt — automated sourcing, tailoring, and application pipelines. | `Next.js` `FastAPI` `LLM agents` `Postgres` |
-| **Merchant Ops Dashboard + Voice Agent** | Merchant management dashboard with an AI voice-agent testing framework. | `Next.js` `FastAPI` `LLM` `TTS/STT` |
-| **Omnichannel Lead-Response Platform** | Multi-channel lead capture and auto-response engine — WhatsApp/SMS/email/chat with AI routing. | `Next.js` `FastAPI` `webhooks` `n8n` |
-| **RV Warranty Automation** | Document-automation MVP that turned manual warranty docs into a structured pipeline. | `Python` `LLM extraction` `OCR` |
-| **Domain Rank + AI-Visibility Tracker** | Tracks classic SEO rankings and generative-search visibility side by side. | `FastAPI` `Next.js` `scrapers` `LLM` |
+## ◆ About
+
+I'm an AI engineer who also ships the full product — models and pipelines on one side, Next.js and React on the other.
+
+**Privacy-first by default.** On-device and self-hosted inference where it matters, not just API calls to someone else's model. Production-grade means monitored, tested, and built to survive contact with real users.
+
+I also co-found a small AI software studio — **2 senior ML engineers and 1 senior web developer** shipping production AI products end to end.
+
+> **Now** — building **Tyllow TTS** and **Evermind AI** at Stem Energy Services.
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-light.svg">
+  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-dark.svg" alt="4+ years in AI/ML · 8+ years engineering · 20+ production systems · 85% exception handling cut · 75% client IT cost cut" width="100%">
+</picture>
+
+<br>
+
+## ◆ Selected work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ [Cytex.io](http://cytex.io)
+**AI-powered cyber threat intelligence platform**
+
+Near real-time threat analysis with LLM-driven reasoning modules feeding a live analyst console.
+
+`Python` `LangGraph` `FastAPI` `Next.js` `Postgres` `AWS`
+
+<sub>**Agentic AI** · **LLM / RAG**</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 👻 [Ghostcrew](https://www.ghostcrew.ai)
+**Autonomous pentest agent**
+
+Plans, executes, and iterates penetration-testing workflows on its own — tool-use plus persistent memory across a run.
+
+`Python` `LLM agents` `tool-use` `memory`
+
+<sub>**Agentic AI**</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🚚 [FourKites Agentic Workforce](https://www.fourkites.com/fourkites-ai/agentic-ai/)
+**Supply-chain assistants (Tracy, Sam)**
+
+Track-and-trace and supplier ops agents. **Cut exception handling ~85%** and client IT costs up to **75%**.
+
+`LLM agents` `Python` `RAG`
+
+<sub>**Agentic AI** · **Automation / MLOps**</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧑‍💼 [360 Facevision HRMS](https://360facevision.com/)
+**Face recognition HRMS**
+
+Anti-spoofing attendance and emotion detection with AI-driven payroll rules, running in production.
+
+`Django` `React.js` `ResNet-50` `ArcFace` `MobileNetV3` `Redis`
+
+<sub>**Computer Vision**</sub>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>◆ Six more projects</b></summary>
+
+<br>
+
+| Project | What it is | Outcome | Stack |
+|---|---|---|---|
+| **Tyllow TTS + Evermind AI** <sub>`in dev`</sub> | Emotion-aware TTS and an offline 4-bit quantized LLM companion. | Fully offline, privacy-first, hardware-aware inference. | `Coqui` `Kokoro` `OpenMOSS` `ISTFT` `Qwen3` `llama.cpp` |
+| **RecruitmentPrep OS** | Reverse-recruiting SaaS that runs the job hunt for candidates. | Automated sourcing, tailoring, and application pipelines. | `Next.js` `FastAPI` `LLM agents` `Postgres` |
+| **Merchant Ops Dashboard + Voice Agent** | Merchant management dashboard with an AI voice-agent testing framework. | Ops visibility plus automated voice-agent evaluation. | `Next.js` `FastAPI` `LLM` `TTS/STT` |
+| **Omnichannel Lead-Response Platform** | Multi-channel lead capture and auto-response engine (respond.io-class). | Unified WhatsApp/SMS/email/chat with AI routing. | `Next.js` `FastAPI` `webhooks` `n8n` |
+| **RV Warranty Automation** | Document-automation MVP for RV warranty processing. | Turned manual warranty docs into a structured pipeline. | `Python` `LLM extraction` `OCR` |
+| **Domain Rank + AI-Visibility Tracker** | Rank tracking plus generative-search visibility and competitor analysis. | Tracks classic SEO and AI-answer visibility side by side. | `FastAPI` `Next.js` `scrapers` `LLM` |
 
 </details>
 
----
+<br>
 
-### Stack
+## ◆ Stack
 
-**AI & ML**
-
-<p>
-  <img src="https://img.shields.io/badge/PyTorch-111119?style=flat-square&logo=pytorch&logoColor=6D5CFF" alt="PyTorch">
-  <img src="https://img.shields.io/badge/Hugging%20Face-111119?style=flat-square&logo=huggingface&logoColor=6D5CFF" alt="Hugging Face">
-  <img src="https://img.shields.io/badge/OpenCV-111119?style=flat-square&logo=opencv&logoColor=6D5CFF" alt="OpenCV">
-  <img src="https://img.shields.io/badge/TensorFlow-111119?style=flat-square&logo=tensorflow&logoColor=6D5CFF" alt="TensorFlow">
-  <img src="https://img.shields.io/badge/PEFT%20%2F%20LoRA-111119?style=flat-square&logo=huggingface&logoColor=6D5CFF" alt="PEFT / LoRA">
-  <img src="https://img.shields.io/badge/YOLO-111119?style=flat-square" alt="YOLO">
-  <img src="https://img.shields.io/badge/ONNX-111119?style=flat-square&logo=onnx&logoColor=6D5CFF" alt="ONNX">
-  <img src="https://img.shields.io/badge/TensorRT-111119?style=flat-square&logo=nvidia&logoColor=6D5CFF" alt="TensorRT">
-  <img src="https://img.shields.io/badge/Coqui%20%2F%20Kokoro%20TTS-111119?style=flat-square" alt="Coqui / Kokoro TTS">
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,fastapi,django,nextjs,react,ts,tailwind,postgres,redis,docker,kubernetes,aws,githubactions,linux,git&theme=dark&perline=9" alt="Tech stack icons">
 </p>
 
-**LLM / Agents**
+Depth, not just a logo wall — maturity below mirrors how central each tool is across the projects above:
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/skills-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/skills-light.svg">
+  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/skills-dark.svg" alt="Skill matrix by maturity: core, proficient, working" width="100%">
+</picture>
+
+<br>
+
+## ◆ How I work
+
+<table>
+<tr><td width="30"><b>1</b></td><td width="220"><b>Discovery &amp; Scoping</b></td><td>Align on goals, constraints, and success metrics; map the problem space before committing to an architecture.</td></tr>
+<tr><td><b>2</b></td><td><b>Architecture &amp; Prototype</b></td><td>Design the system, de-risk the hardest parts with a working prototype, and validate the approach against real data.</td></tr>
+<tr><td><b>3</b></td><td><b>Build &amp; Integrate</b></td><td>Implement the production system end-to-end — models, pipelines, backend, and UI — with tests at every layer.</td></tr>
+<tr><td><b>4</b></td><td><b>Deploy &amp; Harden</b></td><td>Ship to production with monitoring, observability, and failure handling in place from day one.</td></tr>
+<tr><td><b>5</b></td><td><b>Support &amp; Iterate</b></td><td>Monitor real-world performance and iterate based on production feedback and evolving requirements.</td></tr>
+</table>
+
+<br>
+
+## ◆ Let's build something
+
+Open to new projects, collaborations, and consulting engagements — solo or through the studio.
 
 <p>
-  <img src="https://img.shields.io/badge/RAG%20Pipelines-111119?style=flat-square" alt="RAG Pipelines">
-  <img src="https://img.shields.io/badge/LangChain%20%2F%20LangGraph-111119?style=flat-square&logo=langchain&logoColor=6D5CFF" alt="LangChain / LangGraph">
-  <img src="https://img.shields.io/badge/MCP-111119?style=flat-square&logo=modelcontextprotocol&logoColor=6D5CFF" alt="MCP">
-  <img src="https://img.shields.io/badge/n8n-111119?style=flat-square&logo=n8n&logoColor=6D5CFF" alt="n8n">
-  <img src="https://img.shields.io/badge/OpenRouter-111119?style=flat-square&logo=openrouter&logoColor=6D5CFF" alt="OpenRouter">
-  <img src="https://img.shields.io/badge/CrewAI-111119?style=flat-square" alt="CrewAI">
-  <img src="https://img.shields.io/badge/LlamaIndex-111119?style=flat-square" alt="LlamaIndex">
-  <img src="https://img.shields.io/badge/Hermes%20Agents-111119?style=flat-square" alt="Hermes Agents">
+  <a href="mailto:danishbashir.dev@gmail.com"><img src="https://img.shields.io/badge/danishbashir.dev@gmail.com-111119?style=for-the-badge&logo=gmail&logoColor=6D5CFF" alt="Email"></a>
+  <a href="https://linkedin.com/in/dev-danish"><img src="https://img.shields.io/badge/in/dev--danish-111119?style=for-the-badge&logo=linkedin&logoColor=6D5CFF" alt="LinkedIn"></a>
 </p>
 
-**Backend / UI**
-
-<p>
-  <img src="https://img.shields.io/badge/Python-111119?style=flat-square&logo=python&logoColor=6D5CFF" alt="Python">
-  <img src="https://img.shields.io/badge/Next.js-111119?style=flat-square&logo=nextdotjs&logoColor=6D5CFF" alt="Next.js">
-  <img src="https://img.shields.io/badge/React-111119?style=flat-square&logo=react&logoColor=6D5CFF" alt="React">
-  <img src="https://img.shields.io/badge/FastAPI-111119?style=flat-square&logo=fastapi&logoColor=6D5CFF" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Django-111119?style=flat-square&logo=django&logoColor=6D5CFF" alt="Django">
-  <img src="https://img.shields.io/badge/TypeScript-111119?style=flat-square&logo=typescript&logoColor=6D5CFF" alt="TypeScript">
-</p>
-
-**Data & MLOps**
-
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-111119?style=flat-square&logo=postgresql&logoColor=6D5CFF" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/Pinecone-111119?style=flat-square" alt="Pinecone">
-  <img src="https://img.shields.io/badge/ChromaDB-111119?style=flat-square" alt="ChromaDB">
-  <img src="https://img.shields.io/badge/Redis-111119?style=flat-square&logo=redis&logoColor=6D5CFF" alt="Redis">
-</p>
-
-**Cloud & DevOps**
-
-<p>
-  <img src="https://img.shields.io/badge/AWS-111119?style=flat-square" alt="AWS">
-  <img src="https://img.shields.io/badge/Docker-111119?style=flat-square&logo=docker&logoColor=6D5CFF" alt="Docker">
-  <img src="https://img.shields.io/badge/Kubernetes-111119?style=flat-square&logo=kubernetes&logoColor=6D5CFF" alt="Kubernetes">
-  <img src="https://img.shields.io/badge/GitHub%20Actions-111119?style=flat-square&logo=githubactions&logoColor=6D5CFF" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Hostinger%20VPS-111119?style=flat-square&logo=hostinger&logoColor=6D5CFF" alt="Hostinger VPS">
-</p>
-
-**Currently exploring** — MCP · Hermes Agents · Agentic RAG
-
----
-
-### How I work
-
-| | |
-|---|---|
-| **1 · Discovery & Scoping** | Align on goals, constraints, and success metrics; map the problem space before committing to an architecture. |
-| **2 · Architecture & Prototype** | Design the system, de-risk the hardest parts with a working prototype, validate against real data. |
-| **3 · Build & Integrate** | Implement end-to-end — models, pipelines, backend, and UI — with tests at every layer. |
-| **4 · Deploy & Harden** | Ship to production with monitoring, observability, and failure handling in place from day one. |
-| **5 · Support & Iterate** | Monitor real-world performance and iterate on production feedback. |
-
----
-
-### Let's build something
-
-Open to new projects, collaborations, and consulting engagements.
-
-I also co-found a small AI software studio — 2 senior ML engineers and 1 senior web developer shipping production AI products end to end.
-
-<p>
-  <a href="mailto:danishbashir.dev@gmail.com"><img src="https://img.shields.io/badge/danishbashir.dev%40gmail.com-111119?style=flat-square&logo=gmail&logoColor=6D5CFF" alt="Email"></a>
-  <a href="https://linkedin.com/in/dev-danish"><img src="https://img.shields.io/badge/in%2Fdev--danish-111119?style=flat-square&logo=linkedin&logoColor=6D5CFF" alt="LinkedIn"></a>
-</p>
+<sub>Banner, stat band, and skill matrix are hand-built SVGs generated by <a href="https://github.com/itxdanish008/itxdanish008/blob/main/assets/gen_assets.py"><code>assets/gen_assets.py</code></a> — no third-party stat services to go down.</sub>

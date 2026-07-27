@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="108" viewBox="0 0 1000 108" role="img" aria-label="4+ years in ai/ml; 8+ years engineering; 20+ production systems; 85% exception handling cut; 75% client it cost cut">
+<defs>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6D5CFF"/><stop offset="100%" stop-color="#9B6DFF"/>
+  </linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#6D5CFF" stop-opacity="0"/>
+    <stop offset="50%" stop-color="#9B6DFF" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#6D5CFF" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1.5" cy="1.5" r="1.1" fill="#1E1E2A"/>
+  </pattern>
+</defs>
+  <g>
+    <rect x="0.0" y="0" width="190.4" height="108" rx="12" fill="#111119" stroke="#1E1E2A"/>
+    <rect x="16.0" y="22" width="26" height="2.5" rx="1.25" fill="url(#accent)"/>
+    <text x="16.0" y="66" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="34" font-weight="700" fill="url(#accent)">4+</text>
+    <text x="16.0" y="88" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="9.5" fill="#A1A1AA" letter-spacing="0.8">YEARS IN AI/ML</text>
+  </g>
+  <g>
+    <rect x="202.4" y="0" width="190.4" height="108" rx="12" fill="#111119" stroke="#1E1E2A"/>
+    <rect x="218.4" y="22" width="26" height="2.5" rx="1.25" fill="url(#accent)"/>
+    <text x="218.4" y="66" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="34" font-weight="700" fill="url(#accent)">8+</text>
+    <text x="218.4" y="88" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="9.5" fill="#A1A1AA" letter-spacing="0.8">YEARS ENGINEERING</text>
+  </g>
+  <g>
+    <rect x="404.8" y="0" width="190.4" height="108" rx="12" fill="#111119" stroke="#1E1E2A"/>
+    <rect x="420.8" y="22" width="26" height="2.5" rx="1.25" fill="url(#accent)"/>
+    <text x="420.8" y="66" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="34" font-weight="700" fill="url(#accent)">20+</text>
+    <text x="420.8" y="88" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="9.5" fill="#A1A1AA" letter-spacing="0.8">PRODUCTION SYSTEMS</text>
+  </g>
+  <g>
+    <rect x="607.2" y="0" width="190.4" height="108" rx="12" fill="#111119" stroke="#1E1E2A"/>
+    <rect x="623.2" y="22" width="26" height="2.5" rx="1.25" fill="url(#accent)"/>
+    <text x="623.2" y="66" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="34" font-weight="700" fill="url(#accent)">85%</text>
+    <text x="623.2" y="88" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="9.5" fill="#A1A1AA" letter-spacing="0.8">EXCEPTION HANDLING CUT</text>
+  </g>
+  <g>
+    <rect x="809.6" y="0" width="190.4" height="108" rx="12" fill="#111119" stroke="#1E1E2A"/>
+    <rect x="825.6" y="22" width="26" height="2.5" rx="1.25" fill="url(#accent)"/>
+    <text x="825.6" y="66" font-family="Segoe UI,Ubuntu,Helvetica Neue,Arial,sans-serif" font-size="34" font-weight="700" fill="url(#accent)">75%</text>
+    <text x="825.6" y="88" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="9.5" fill="#A1A1AA" letter-spacing="0.8">CLIENT IT COST CUT</text>
+  </g>
+</svg>
