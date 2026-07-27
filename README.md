@@ -1,14 +1,15 @@
-<!-- Hero — self-hosted SVG, auto-switches with the viewer's GitHub theme -->
+<!-- Hero: self-hosted SVG, auto-switches with the viewer's GitHub theme -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-light.svg">
-  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-dark.svg" alt="M. Danish Bashir — Sr. AI Engineer, Full-Stack" width="100%">
+  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/hero-dark.svg" alt="M. Danish Bashir, Sr. AI Engineer, Full-Stack" width="100%">
 </picture>
 
 <p align="center">
   <a href="#-selected-work"><img src="https://img.shields.io/badge/Work-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Work"></a>
+  <a href="#-agent--llm-infrastructure"><img src="https://img.shields.io/badge/Agents-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Agents"></a>
   <a href="#-stack"><img src="https://img.shields.io/badge/Stack-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Stack"></a>
-  <a href="#-how-i-work"><img src="https://img.shields.io/badge/Process-111119?style=for-the-badge&labelColor=111119&color=111119" alt="Process"></a>
+  <a href="#-mlops--delivery"><img src="https://img.shields.io/badge/MLOps-111119?style=for-the-badge&labelColor=111119&color=111119" alt="MLOps"></a>
   <a href="#-lets-build-something"><img src="https://img.shields.io/badge/Contact-6D5CFF?style=for-the-badge&labelColor=6D5CFF&color=6D5CFF" alt="Contact"></a>
 </p>
 
@@ -23,20 +24,20 @@
 
 ## ◆ About
 
-I'm an AI engineer who also ships the full product — models and pipelines on one side, Next.js and React on the other.
+I'm an AI engineer who also ships the full product: models and pipelines on one side, Next.js and React on the other.
 
 **Privacy-first by default.** On-device and self-hosted inference where it matters, not just API calls to someone else's model. Production-grade means monitored, tested, and built to survive contact with real users.
 
-I also co-found a small AI software studio — **2 senior ML engineers and 1 senior web developer** shipping production AI products end to end.
+I also co-found a small AI software studio: **2 senior ML engineers and 1 senior web developer** shipping production AI products end to end.
 
-> **Now** — building **Tyllow TTS** and **Evermind AI** at Stem Energy Services.
+> **Now:** building **Tyllow TTS** and **Evermind AI** at Stem Energy Services.
 
 <br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-light.svg">
-  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-dark.svg" alt="4+ years in AI/ML · 8+ years engineering · 20+ production systems · 85% exception handling cut · 75% client IT cost cut" width="100%">
+  <img src="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/stats-dark.svg" alt="4+ years in AI/ML, 8+ years engineering, 20+ production systems, 85% exception handling cut, 75% client IT cost cut" width="100%">
 </picture>
 
 <br>
@@ -62,7 +63,7 @@ Near real-time threat analysis with LLM-driven reasoning modules feeding a live 
 ### 👻 [Ghostcrew](https://www.ghostcrew.ai)
 **Autonomous pentest agent**
 
-Plans, executes, and iterates penetration-testing workflows on its own — tool-use plus persistent memory across a run.
+Plans, executes, and iterates penetration-testing workflows on its own, combining tool-use with persistent memory across a run.
 
 `Python` `LLM agents` `tool-use` `memory`
 
@@ -116,13 +117,47 @@ Anti-spoofing attendance and emotion detection with AI-driven payroll rules, run
 
 <br>
 
+## ◆ Agent & LLM infrastructure
+
+The part of the stack I spend most of my time in. All of the below is running in production, not prototypes.
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+**🔌 MCP**
+
+Model Context Protocol servers and clients as the integration layer between models and real systems: typed tool contracts, scoped permissions, and auditable tool I/O instead of ad-hoc function glue.
+
+</td>
+<td width="33%" valign="top">
+
+**🧠 Hermes Agents**
+
+Hermes-based agent workflows with tool-use, structured output validation, and persistent memory. Guarded against the failure modes that actually bite: runaway tool calls, loops, and silent fallback to garbage.
+
+</td>
+<td width="33%" valign="top">
+
+**🕸️ LangGraph orchestration**
+
+Explicit, typed graph state with a clear contract per node. Retries with backoff, timeouts, and schema-validated model output, because an LLM is an unreliable dependency.
+
+</td>
+</tr>
+</table>
+
+**Also in rotation:** `RAG pipelines` `CrewAI` `LlamaIndex` `OpenRouter` `Pinecone` `ChromaDB` `llama.cpp` `PEFT / LoRA`
+
+<br>
+
 ## ◆ Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,pytorch,tensorflow,opencv,fastapi,django,nextjs,react,ts,tailwind,postgres,redis,docker,kubernetes,aws,githubactions,linux,git&theme=dark&perline=9" alt="Tech stack icons">
 </p>
 
-Depth, not just a logo wall — maturity below mirrors how central each tool is across the projects above:
+Depth, not just a logo wall. Maturity below reflects how central each tool is across the projects above:
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/itxdanish008/itxdanish008/main/assets/skills-dark.svg">
@@ -132,12 +167,28 @@ Depth, not just a logo wall — maturity below mirrors how central each tool is 
 
 <br>
 
+## ◆ MLOps & delivery
+
+Models that never leave a notebook aren't worth much. How the work actually ships:
+
+| Stage | Tooling | What I do with it |
+|---|---|---|
+| **Experimentation** | `MLflow` `Weights & Biases` | Tracked runs, logged params and data versions, model registry. Seeds set, pipelines rerunnable. |
+| **Data & pipelines** | `Airflow / Prefect` `DVC` | Scheduled training and ingestion pipelines, versioned datasets, explicit handling of missing data and leakage. |
+| **Serving** | `BentoML` `Ray` `FastAPI` `ONNX / TensorRT` | Quantized and compiled inference, batching, hardware-aware deployment down to offline 4-bit. |
+| **Infrastructure** | `Docker` `ECS / EKS` `Kubernetes` `Lambda` `EC2` | Containerized services, autoscaling, serverless where it fits. |
+| **AWS platform** | `SageMaker` `Bedrock` `S3` `CloudWatch` `CodePipeline` | Managed training and endpoints, foundation-model access, artifact storage, metrics and alarms. |
+| **CI/CD** | `GitHub Actions` | Test, build, and deploy on merge, with release gates on anything safety or cost relevant. |
+| **Automation** | `n8n` `Zapier` `Make.com` | Business-process automation and glue between AI services and the tools clients already run. |
+
+<br>
+
 ## ◆ How I work
 
 <table>
 <tr><td width="30"><b>1</b></td><td width="220"><b>Discovery &amp; Scoping</b></td><td>Align on goals, constraints, and success metrics; map the problem space before committing to an architecture.</td></tr>
 <tr><td><b>2</b></td><td><b>Architecture &amp; Prototype</b></td><td>Design the system, de-risk the hardest parts with a working prototype, and validate the approach against real data.</td></tr>
-<tr><td><b>3</b></td><td><b>Build &amp; Integrate</b></td><td>Implement the production system end-to-end — models, pipelines, backend, and UI — with tests at every layer.</td></tr>
+<tr><td><b>3</b></td><td><b>Build &amp; Integrate</b></td><td>Implement the production system end to end (models, pipelines, backend, and UI) with tests at every layer.</td></tr>
 <tr><td><b>4</b></td><td><b>Deploy &amp; Harden</b></td><td>Ship to production with monitoring, observability, and failure handling in place from day one.</td></tr>
 <tr><td><b>5</b></td><td><b>Support &amp; Iterate</b></td><td>Monitor real-world performance and iterate based on production feedback and evolving requirements.</td></tr>
 </table>
@@ -146,11 +197,11 @@ Depth, not just a logo wall — maturity below mirrors how central each tool is 
 
 ## ◆ Let's build something
 
-Open to new projects, collaborations, and consulting engagements — solo or through the studio.
+Open to new projects, collaborations, and consulting engagements, solo or through the studio.
 
 <p>
   <a href="mailto:danishbashir.dev@gmail.com"><img src="https://img.shields.io/badge/danishbashir.dev@gmail.com-111119?style=for-the-badge&logo=gmail&logoColor=6D5CFF" alt="Email"></a>
   <a href="https://linkedin.com/in/dev-danish"><img src="https://img.shields.io/badge/in%2Fdev--danish-111119?style=for-the-badge&labelColor=111119&color=0A66C2" alt="LinkedIn"></a>
 </p>
 
-<sub>Banner, stat band, and skill matrix are hand-built SVGs generated by <a href="https://github.com/itxdanish008/itxdanish008/blob/main/assets/gen_assets.py"><code>assets/gen_assets.py</code></a> — no third-party stat services to go down.</sub>
+<sub>Banner, stat band, and skill matrix are hand-built SVGs generated by <a href="https://github.com/itxdanish008/itxdanish008/blob/main/assets/gen_assets.py"><code>assets/gen_assets.py</code></a>, so there are no third-party stat services to go down.</sub>

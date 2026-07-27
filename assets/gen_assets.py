@@ -68,7 +68,7 @@ def hero(t: dict, name: str) -> None:
         for i, (x, y) in enumerate(nodes)
     )
 
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(name)} — Sr. AI Engineer, Full-Stack">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-label="{escape(name)}, Sr. AI Engineer, Full-Stack">
 {defs(t)}
   <rect width="{W}" height="{H}" rx="18" fill="{t['bg']}"/>
   <rect width="{W}" height="{H}" rx="18" fill="url(#dots)" opacity="0.55"/>
@@ -143,23 +143,37 @@ SKILLS = {
         ("PEFT / LoRA", 2), ("YOLO", 2), ("ONNX / TensorRT", 1), ("Coqui / Kokoro TTS", 1),
     ],
     "LLM / Agents": [
-        ("RAG Pipelines", 3), ("LangChain / LangGraph", 3), ("MCP", 2), ("n8n", 2),
-        ("OpenRouter", 2), ("CrewAI", 2), ("LlamaIndex", 2), ("Hermes Agents", 1),
+        ("RAG Pipelines", 3), ("LangChain / LangGraph", 3), ("MCP", 3), ("Hermes Agents", 3),
+        ("CrewAI", 2), ("LlamaIndex", 2), ("OpenRouter", 2),
     ],
     "Backend / UI": [
-        ("Python", 3), ("Next.js", 3), ("React.js", 3), ("FastAPI", 3), ("Django", 2),
+        ("Python", 3), ("FastAPI", 3), ("Next.js", 3), ("React.js", 3),
+        ("Django", 2), ("TypeScript", 2),
     ],
-    "Data & MLOps": [
-        ("Postgres", 3), ("Pinecone / ChromaDB", 2),
+    "Data & Vector": [
+        ("Postgres", 3), ("Pinecone / ChromaDB", 2), ("Redis", 2),
     ],
-    "Cloud & DevOps": [
-        ("AWS Lambda / EC2", 3), ("Docker", 3), ("Hostinger VPS", 2),
-        ("GitHub Actions", 2), ("Kubernetes", 1),
+    "MLOps": [
+        ("Docker", 3), ("GitHub Actions", 2), ("MLflow", 2),
+        ("Weights & Biases", 2), ("Airflow / Prefect", 2), ("DVC / BentoML / Ray", 1),
+    ],
+    "AWS & Cloud": [
+        ("Lambda", 3), ("EC2", 3), ("S3 / CloudWatch", 2), ("SageMaker", 2),
+        ("Bedrock", 2), ("ECS / EKS", 2), ("CodePipeline", 2), ("Hostinger VPS", 2),
+        ("Kubernetes", 1),
+    ],
+    "Automation": [
+        ("n8n", 2), ("Zapier", 2), ("Make.com", 2),
     ],
 }
 
-EXPLORING = ["MCP", "Hermes Agents", "Agentic RAG"]
-COLUMNS = [["AI & ML", "Exploring"], ["LLM / Agents", "Data & MLOps"], ["Backend / UI", "Cloud & DevOps"]]
+EXPLORING = ["Agentic RAG"]
+COLUMNS = [
+    ["AI & ML", "Automation"],
+    ["LLM / Agents", "Data & Vector"],
+    ["AWS & Cloud", "Exploring"],
+    ["MLOps", "Backend / UI"],
+]
 
 ROW_H, HEAD_H, LEGEND_H = 25, 34, 30
 
@@ -181,8 +195,9 @@ def _meter(x: float, y: float, level: int, t: dict) -> str:
 
 
 def skills_matrix(t: dict) -> None:
-    W, pad, col_gap = 1000, 20, 14
-    cw = (W - pad * 2 - col_gap * 2) / 3
+    W, pad, col_gap = 1000, 20, 12
+    n = len(COLUMNS)
+    cw = (W - pad * 2 - col_gap * (n - 1)) / n
     panel_h = max(_col_height(c) for c in COLUMNS) + 14
     H = panel_h + pad * 2 + LEGEND_H
 
@@ -203,14 +218,14 @@ def skills_matrix(t: dict) -> None:
                 for item in EXPLORING:
                     parts.append(
                         f'<circle cx="{x + 20:.1f}" cy="{y + 10}" r="3" fill="{AMBER}"/>'
-                        f'<text x="{x + 32:.1f}" y="{y + 15}" font-family="{SANS}" font-size="12.5" '
+                        f'<text x="{x + 32:.1f}" y="{y + 15}" font-family="{SANS}" font-size="12" '
                         f'fill="{t["muted"]}">{escape(item)}</text>'
                     )
                     y += ROW_H
             else:
                 for skill, level in SKILLS[cat]:
                     parts.append(
-                        f'<text x="{x + 16:.1f}" y="{y + 15}" font-family="{SANS}" font-size="12.5" '
+                        f'<text x="{x + 16:.1f}" y="{y + 15}" font-family="{SANS}" font-size="12" '
                         f'fill="{t["text"]}">{escape(skill)}</text>'
                     )
                     parts.append(_meter(x + cw - 16 - 56, y + 5, level, t))
